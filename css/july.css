@@ -1,0 +1,26 @@
+.body {
+    background-image: url('imagen.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black; 
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba;
+}
+h1 {
+    text-align: center;
+}
+.personas {
+    margin-top: 20px;
+}
+.personas{
+    margin-top: 20px;
+    }
+.persona {
+    margin-bottom: 10px;
+}

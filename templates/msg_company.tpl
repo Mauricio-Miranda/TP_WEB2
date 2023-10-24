@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mensaje">
+
+        {if $response eq "ok"}
+        <div class="mensaje_box2">
+                <p class="p_mensaje"> Operación completada con éxito! </p>
+        </div>
+        {else}
+        <div class="mensaje_box2">
+                <p class="p_mensaje"> No se ha podido realizar la operación </p>
+        </div>
+        {/if}
+        <div class="mensaje_box2">
+            <a class="btn_agregar" href="home"> Volver </a>
+        </div>
+        
+    </div> 
+</body>
+</html>
